@@ -11,7 +11,7 @@ var contextMenuItemCreate = chrome.contextMenus.create(createProperties, functio
      *       wrong during contextMenu creation process
      *
      *       if (typeof chrome.runtime.lastError != 'undefined') {
-             *          ...
-             *       }
+     *          ...
+     *       }
      */
 });
