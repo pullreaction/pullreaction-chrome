@@ -1,7 +1,7 @@
-
 var createProperties = {
-    contexts: ['all'],
+    contexts: ['image'],
     id:       'contextMenuItemCreate',
+    targetUrlPatterns: ["*://*/*gif"],
     title:    'Add to Pull Reaction',
     type:     'normal'
 };
@@ -11,7 +11,7 @@ var contextMenuItemCreate = chrome.contextMenus.create(createProperties, functio
      *       wrong during contextMenu creation process
      *
      *       if (typeof chrome.runtime.lastError != 'undefined') {
-     *          ...
-     *       }
+             *          ...
+             *       }
      */
 });
